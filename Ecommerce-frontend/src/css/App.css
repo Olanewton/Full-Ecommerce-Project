@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+}
+
+.content {
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+}
+
+a {
+  color: #0090c8;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* Custom bootstrap styles */
+.btn {
+  border-radius: 0;
+  border: 0;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
