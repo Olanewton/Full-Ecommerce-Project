@@ -1,4 +1,0 @@
-boto3
-django-heroku
-django-storages
-gunicorn
